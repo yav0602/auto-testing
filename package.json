@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "cypress": "^13.3.1",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "mtrx": "^0.1.6",
+    "sinon": "^16.1.0",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test:lab1": "mocha ./test/lab1.test",
+    "test:lab2": "mocha ./test/lab2.test",
+    "test:lab3": "mocha ./test/lab3.test",
+    "test:lab6": "mocha ./test/lab6.test",
+    "cypress": "cypress open" 
+  }
+}
